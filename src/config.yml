@@ -1,0 +1,31 @@
+server:
+  name: "VectoMC"
+  plugin: "HubCore"
+
+onjoin:
+  clearinv: true
+
+world:
+  allowBreak: false
+  allowPlace: false
+  allowInterract: false
+
+items:
+  enable: true
+  players_hide_item:
+    enable: true
+    slot: 1
+    # List of items materials to put between the "" -> https://github.com/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/Material.java
+    show_item:
+      item: "INK_SACK"
+      data: 10
+      name: "All players are shown"
+      lore: "Lore"
+    hide_item:
+      item: "INK_SACK"
+      data: 8
+      name: "All players are hidden"
+      lore:
+        - "Lore"
+
+

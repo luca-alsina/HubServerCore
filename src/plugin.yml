@@ -1,0 +1,10 @@
+name: HubCore
+main: eu.blacky62.hubcore.Main
+version: 1.0
+description: HubCore.
+author: blacky62
+softdepend:
+  - PlaceholderAPI
+commands:
+  hubcore:
+    description: Hubcore command.
